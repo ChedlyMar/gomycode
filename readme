@@ -1,0 +1,25 @@
+Cascading Style Sheets
+
+CSS (Cascading Style Sheets) is a language used to style HTML pages.
+CSS allows us to add colors and fonts to our texts, adjust the layout, etc...
+CSS is the tool that reads the CSS code and understands how the web page is displayed.
+CSS separates the presentation of a document from its structure and content.
+
+Inline : by using the style attribute in HTML elements.   <p style="border: 1px blue; color: crimson">
+Internal : by using a < style > element in the < head > section.
+    <style>
+			h1 {
+			  color: aqua;
+			  font: sans-serif;
+			}
+			p {
+			  color: darkblue;
+			  font: small;
+			}
+		</style>
+External : by using an external CSS file.<link rel="stylesheet" href="./styles.css" />
+
+Descendant Combinator: space
+Child Combinator: > 
+Adjacent sibling Combinator: +
+General sibling Combinator: ~

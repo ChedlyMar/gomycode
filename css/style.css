@@ -1,0 +1,105 @@
+body {
+  font-family: roboto;
+  color: #1d1d1f;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  padding: 24px;
+  border-bottom: solid 2px;
+}
+
+.logo {
+  display: inline;
+}
+
+nav {
+  float: right;
+  display: inline;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+  padding: 16px;
+}
+
+li:hover {
+  color: whitesmoke;
+  transition: 1s background-color;
+  transition: 0.2s color;
+  background-color: #1d1d1f;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+#about {
+  width: 90%;
+  margin: auto;
+}
+
+span {
+  font-size: 3em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dev-laguages {
+  width: 95%;
+  margin: auto;
+  padding: 25px;
+}
+
+.description {
+  text-align: center;
+}
+
+.language {
+  width: 150px;
+  height: 80px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+}
+
+.projects {
+  padding: 20px;
+  height: 150px;
+  background-color: hotpink;
+}
+
+#resume {
+  width: max-content;
+  margin: 64px auto;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  /* border: solid 2px black; */
+  border-radius: 30px;
+  background-color: #f2f2f2;
+}
+
+input,
+textarea {
+  width: 100%;
+}
